@@ -17,7 +17,7 @@ def decrypt_files_in_folder(folder_path, key):
 
 with open("key.key", "rb") as key_file:
     key= key_file.read()
-
-folder_path ="C:\\Users\\raque\\OneDrive\\Área de Trabalho\\nomes.teste";
+#Passe o diretorio na variável folder_path
+folder_path ="";
 
 decrypt_files_in_folder(folder_path, key)

